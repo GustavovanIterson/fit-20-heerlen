@@ -4415,7 +4415,7 @@ figcaption {
 }
 
 .heading-style-h3-2 {
-  color: #FFFFFF;
+  color: #000;
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
@@ -6563,6 +6563,7 @@ figcaption {
 }
 
 .heading-style-h2-3.is-center {
+  color: #fff;
   text-align: center;
 }
 
