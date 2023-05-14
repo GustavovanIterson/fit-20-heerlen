@@ -9934,46 +9934,46 @@ a:hover {
   }
 }
 
-#Naam.w-node-cbe91308-9edf-c7de-f2e1-9ace11837984-71b10c92, #Email.w-node-de60cf1a-c60b-407d-b6ac-919f0930e496-71b10c92 {
+#Naam.w-node-cbe91308-9edf-c7de-f2e1-9ace11837984-23842d7a, #Email.w-node-de60cf1a-c60b-407d-b6ac-919f0930e496-23842d7a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-bf10489d-fef6-6036-c8ee-afa745833c37-71b10c92, #w-node-b438e757-0569-2b21-b4a1-57bf50d835c0-71b10c92 {
+#w-node-bf10489d-fef6-6036-c8ee-afa745833c37-23842d7a, #w-node-b438e757-0569-2b21-b4a1-57bf50d835c0-23842d7a {
   align-self: start;
 }
 
-#w-node-_7e9fc79a-fe6e-89ca-f23a-ec3485aeadd2-71b10c92, #w-node-_325aea64-1913-b85e-c693-3511ba490f0d-71b10c92 {
+#w-node-_7e9fc79a-fe6e-89ca-f23a-ec3485aeadd2-23842d7a, #w-node-_325aea64-1913-b85e-c693-3511ba490f0d-23842d7a {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-b482186c-fa54-9e60-c60c-12bc25396bd7-71b10c92, #w-node-b482186c-fa54-9e60-c60c-12bc25396bdc-71b10c92, #w-node-b482186c-fa54-9e60-c60c-12bc25396be1-71b10c92 {
+#w-node-b482186c-fa54-9e60-c60c-12bc25396bd7-23842d7a, #w-node-b482186c-fa54-9e60-c60c-12bc25396bdc-23842d7a, #w-node-b482186c-fa54-9e60-c60c-12bc25396be1-23842d7a {
   justify-self: center;
 }
 
-#w-node-add1eb13-64e1-bce2-ca98-4c9bcc4b8787-0f02fe20 {
+#w-node-add1eb13-64e1-bce2-ca98-4c9bcc4b8787-23842d7e {
   align-self: start;
 }
 
-#w-node-_729823f0-dc9b-6e87-c5cd-01623785093f-0f02fe20 {
+#w-node-_729823f0-dc9b-6e87-c5cd-01623785093f-23842d7e {
   grid-area: span 1 / span 1 / span 1 / span 1;
   justify-self: start;
 }
 
-#w-node-_729823f0-dc9b-6e87-c5cd-01623785095e-0f02fe20 {
+#w-node-_729823f0-dc9b-6e87-c5cd-01623785095e-23842d7e {
   grid-area: span 1 / span 1 / span 1 / span 1;
   align-self: center;
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-b482186c-fa54-9e60-c60c-12bc25396bd7-71b10c92 {
+  #w-node-b482186c-fa54-9e60-c60c-12bc25396bd7-23842d7a {
     grid-area: 1 / 1 / 2 / 2;
   }
 
-  #w-node-b482186c-fa54-9e60-c60c-12bc25396bdc-71b10c92 {
+  #w-node-b482186c-fa54-9e60-c60c-12bc25396bdc-23842d7a {
     grid-area: 1 / 2 / 2 / 3;
   }
 
-  #w-node-b482186c-fa54-9e60-c60c-12bc25396be1-71b10c92 {
+  #w-node-b482186c-fa54-9e60-c60c-12bc25396be1-23842d7a {
     grid-area: 1 / 3 / 2 / 4;
   }
 }
