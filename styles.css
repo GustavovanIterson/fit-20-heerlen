@@ -4484,12 +4484,9 @@ a:hover {
   transform: rotate(180deg);
 }
 
-.nav_logo {
-  width: auto;
-}
-
 .nav_logo.is-footer {
   width: 10rem;
+  object-fit: none;
 }
 
 .nav_link-list {
@@ -5072,6 +5069,11 @@ a:hover {
   right: 0%;
 }
 
+.main-wrapper.is-thank-you {
+  display: block;
+  position: relative;
+}
+
 .home-proven_title {
   text-transform: uppercase;
   font-family: Open Sans, sans-serif;
@@ -5457,7 +5459,6 @@ a:hover {
 .section_bedankt-header {
   height: 100%;
   min-height: 100vh;
-  background-color: #f9f9f9;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -5855,6 +5856,11 @@ a:hover {
   width: 1.25rem;
 }
 
+.button-symbol.is-download {
+  width: 1rem;
+  filter: invert();
+}
+
 .text-weight-bold {
   font-family: Open Sans, sans-serif;
   font-size: 1rem;
@@ -5930,12 +5936,12 @@ a:hover {
   padding-bottom: 1.5rem;
 }
 
-.section_home-form {
+.section_2-col {
   background-color: #efefef;
   padding-bottom: 2rem;
 }
 
-.home-form_component {
+._2-col_component {
   grid-column-gap: 3rem;
   grid-row-gap: 16px;
   grid-template-rows: auto;
@@ -5944,8 +5950,11 @@ a:hover {
   display: grid;
 }
 
-.form_content-left {
+._2-col_content-left {
+  flex-direction: column;
+  align-items: flex-start;
   padding-top: 2rem;
+  display: flex;
 }
 
 .form_upc-wrap {
@@ -7050,6 +7059,61 @@ a:hover {
   bottom: -3rem;
 }
 
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.pdf-download_component {
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 1.5rem;
+  align-items: flex-end;
+  display: flex;
+}
+
+.text-style-grey {
+  color: #494b53;
+}
+
+.pdf-download_content-right {
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: flex-start;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+}
+
+.pdf-download_content-left {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.pdf-download_image {
+  width: 100%;
+  max-width: 16.5rem;
+}
+
+.pdf-proefles_component {
+  display: flex;
+}
+
+.pdf-proefles_content-right {
+  flex-direction: column;
+  align-items: flex-start;
+  display: flex;
+}
+
+._2-col_video {
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, .2);
+}
+
+.text-style-headline {
+  color: #95c11a;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1440px) {
   .footer-2.random {
     height: 12%;
@@ -7985,6 +8049,17 @@ a:hover {
     padding-top: 5rem;
   }
 
+  ._2-col_component.is-vertical {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+  }
+
+  ._2-col_content-right.is-100 {
+    width: 100%;
+    max-width: 30rem;
+  }
+
   .link-underline.is-white {
     padding: 5px;
   }
@@ -8065,6 +8140,15 @@ a:hover {
 
   .text-style-small-quote {
     margin-bottom: 1.5rem;
+  }
+
+  ._2-col_video {
+    width: 100%;
+  }
+
+  ._2-col_video-wrapper {
+    width: 100%;
+    margin-top: 1rem;
   }
 }
 
@@ -8878,12 +8962,12 @@ a:hover {
     padding-top: 6rem;
   }
 
-  .home-form_component {
+  ._2-col_component {
     flex-direction: column;
     display: flex;
   }
 
-  .form_content-left {
+  ._2-col_content-left {
     padding-top: 0;
   }
 
@@ -9004,9 +9088,22 @@ a:hover {
     padding: 3rem 2rem 2rem;
   }
 
+  .heading-style-h1.is-center {
+    text-align: center;
+  }
+
   .free-download_card {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .pdf-download_component {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .pdf-download_content-right {
+    align-items: center;
   }
 }
 
@@ -9851,6 +9948,20 @@ a:hover {
 
 #w-node-b482186c-fa54-9e60-c60c-12bc25396bd7-71b10c92, #w-node-b482186c-fa54-9e60-c60c-12bc25396bdc-71b10c92, #w-node-b482186c-fa54-9e60-c60c-12bc25396be1-71b10c92 {
   justify-self: center;
+}
+
+#w-node-add1eb13-64e1-bce2-ca98-4c9bcc4b8787-0f02fe20 {
+  align-self: start;
+}
+
+#w-node-_729823f0-dc9b-6e87-c5cd-01623785093f-0f02fe20 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  justify-self: start;
+}
+
+#w-node-_729823f0-dc9b-6e87-c5cd-01623785095e-0f02fe20 {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  align-self: center;
 }
 
 @media screen and (max-width: 991px) {
